@@ -100,7 +100,7 @@ int main() {
 }
 
     //if board is full
-    if(game.isBoardFull()) {
+    if(game.isBoardFull() && !game.checkForWin()) {
         cout << "Board is full. Tie game." << endl;
     }
 
